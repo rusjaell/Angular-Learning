@@ -1,0 +1,58 @@
+<div class="container-xl px-5 py-5 bg-dark-color shadow-md shadow-black/50">
+  <nav class="flex items-center">
+    <img
+      alt="a"
+      class="w-40 cursor-pointer"
+      src="../../assets/images/logoipsum-330.svg"
+    />
+    <ul class="flex-1 text-center">
+      <li class="list-none inline-block text-white px-5">
+        <a
+          class="no-underline px-2 cursor-pointer [&.active]:underline hover:underline decoration-black underline-offset-8"
+          routerLink="/"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+          >Home</a
+        >
+      </li>
+      <li class="list-none inline-block text-white px-5">
+        <a
+          class="no-underline cursor-pointer px-2 [&.active]:underline hover:underline decoration-black underline-offset-8"
+          routerLink="/about"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+          >About</a
+        >
+      </li>
+      <li class="list-none inline-block text-white text-whitepx-5">
+        <a
+          class="no-underline cursor-pointer px-2 [&.active]:underline hover:underline decoration-black underline-offset-8"
+          routerLink="/services"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+          >Services</a
+        >
+      </li>
+      <li class="list-none inline-block text-white px-5">
+        <a
+          class="no-underline cursor-pointer px-2 [&.active]:underline hover:underline decoration-black underline-offset-8"
+          routerLink="/contact"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+          >Contact</a
+        >
+      </li>
+      <li
+        class="list-none inline-block text-white px-5 [&.active]:underline hover:underline decoration-black underline-offset-8"
+      >
+        <a
+          class="no-underline cursor-pointer px-2"
+          routerLink="/wiki"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+          >Wiki</a
+        >
+      </li>
+    </ul>
+  </nav>
+</div>
